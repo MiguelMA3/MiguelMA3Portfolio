@@ -1,0 +1,115 @@
+/* FONTS */
+
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&family=Press+Start+2P&family=Silkscreen:wght@400;700&family=Space+Grotesk:wght@300..700&family=Staatliches&display=swap');
+
+.space-grotesk-regular {
+  font-family: "Space Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.electrolize-regular {
+  font-family: "Electrolize", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.silkscreen-regular {
+  font-family: "Silkscreen", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.silkscreen-bold {
+  font-family: "Silkscreen", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.press-start-2p-regular {
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.staatliches-regular {
+  font-family: "Staatliches", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* COLORS -- STEAM LORS PALETTE*/
+
+* {
+--clr-green-dark:#213b25;
+--clr-green-regular:#3a604a;
+--clr-green-light:#4f7754;
+--clr-beige-light:#a19f7c;
+--clr-beige-dark:#77744f;
+--clr-brown-light:#775c4f;
+--clr-wine-light:#603b3a;
+--clr-wine-dark:#3b2137;
+--clr-black:#170e19;
+--clr-purple-dark:#2f213b;
+--clr-purple-regular:#433a60;
+--clr-purple-light:#4f5277;
+--clr-blue-dark:#65738c;
+--clr-blue-regular:#7c94a1;
+--clr-blue-light:#a0b9ba;
+--clr-cyan:#c0d1cc;
+}
+
+/* STANDARD */
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Electrolize", "Space Grotesk", sans-serif;
+    font-size: 18px;
+    margin: auto;
+    background-color: var(--clr-black);
+    color: var(--clr-cyan);
+}
+
+/* STYLES */
+
+.hello {
+    display: flex;
+    text-align: left;
+    justify-content: center;
+    flex: 1;
+    background-color: var(--clr-black);
+}
+
+.me-image {
+    height: 360px;
+    width: auto;
+}
+
+.me {
+    padding: 7%;
+}
+
+.me-name, .me-role {
+    font-family: "Silkscreen", "Press Start 2P", sans-serif;
+    font-size: 20px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+.me-name {
+    font-size: 32px;
+    color: var(--clr-green-light)
+}
+
+.me-role {
+    color: var(--clr-beige-light);
+}
+
+/*            <img src="./assets/profile.jpg" alt="profile-image" class="me-image">
+            <p class="me-name">Miguel Maletzke</p>
+            <p class="me-role">Backend Developer | Go (Golang) & Python</p>
+            <p class="me-about">Hello There! I'm a backend developer with experience in Go (Golang), Python, RESTful API development, automation tools, systems integration, SOLID principles, Clean Code and agile methodologies. Currently improving knowledge in Cloud (GCP), Docker, CI/CD and Microservices architecture.</p>
