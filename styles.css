@@ -85,8 +85,9 @@ body {
 }
 
 .me-image {
-    height: 360px;
-    width: auto;
+    height: 480px;
+    width: 360px;
+    object-fit: cover;
 }
 
 .me {
@@ -112,4 +113,11 @@ body {
 /*            <img src="./assets/profile.jpg" alt="profile-image" class="me-image">
             <p class="me-name">Miguel Maletzke</p>
             <p class="me-role">Backend Developer | Go (Golang) & Python</p>
-            <p class="me-about">Hello There! I'm a backend developer with experience in Go (Golang), Python, RESTful API development, automation tools, systems integration, SOLID principles, Clean Code and agile methodologies. Currently improving knowledge in Cloud (GCP), Docker, CI/CD and Microservices architecture.</p>
+            <p class="me-about">Hello There! I'm a backend developer with experience in Go (Golang), Python, RESTful API development, automation tools, systems integration, SOLID principles, Clean Code and agile methodologies. Currently improving knowledge in Cloud (GCP), Docker, CI/CD and Microservices architecture.</p>*/
+
+.projects {
+  display: flex;
+  /* flex-direction: row; */
+  justify-content: space-around;
+  align-items: center;
+}
